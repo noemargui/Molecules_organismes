@@ -195,6 +195,11 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+}
+
+.img-responsive-user-photo {
+  vertical-align: middle;
+  border-style: none;
   border-radius: 25px;
 }
 
