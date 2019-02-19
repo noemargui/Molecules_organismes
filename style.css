@@ -5424,6 +5424,15 @@ a.badge-dark:focus, a.badge-dark.focus {
   text-align: center;
 }
 
+.jumbotro {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #ced6e0;
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
@@ -10757,7 +10766,8 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  background-color: #f5f8fb;
+  text-align: center;
 }
 
 .authentificate {
