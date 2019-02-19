@@ -4854,7 +4854,6 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 
@@ -4902,10 +4901,9 @@ input[type="button"].btn-block {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(227, 228, 235, 0.705);
 }
 
 .card-header:first-child {
@@ -5696,7 +5694,6 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   font-style: italic;
-  color: #d4d4d4;
 }
 
 .list-group-item:first-child {
@@ -5961,7 +5958,11 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .list-group-item-light {
   color: #7b7d7d;
-  background-color: #fafbfb;
+  position: relative;
+  display: block;
+  padding: 0.1rem 1.25rem;
+  margin-bottom: -1px;
+  font-size: 14px
 }
 
 .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
