@@ -201,6 +201,7 @@ img {
   vertical-align: middle;
   border-style: none;
   border-radius: 25px;
+  margin-right: 10px;
 }
 
 svg {
@@ -4909,7 +4910,7 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.5rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(227, 228, 235, 0.705);
+  background-color: rgba(243, 243, 243, 0.815);
 }
 
 .card-header:first-child {
@@ -10780,7 +10781,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .comment {
-  text-align: center !important;
+padding-left: 40px;
 }
 
 .contain {
