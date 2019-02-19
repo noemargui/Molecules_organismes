@@ -5691,10 +5691,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  font-style: italic;
+  color: #d4d4d4;
 }
 
 .list-group-item:first-child {
@@ -10758,6 +10760,14 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 65px;
 }
 
-
-
-background: url('/images/club.jpeg') no-repeat center center;
+.banner {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-image: url("images/audience.jpg");
+  background-position: 35% 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+}
